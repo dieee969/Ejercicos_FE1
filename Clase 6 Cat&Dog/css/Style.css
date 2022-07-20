@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.lineaSuperior{
+    background-color: #222222;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+div nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    list-style-type: none;
+    padding-right: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.lineaOcre{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    background-color: #F0A83E;
+    color: white;
+    align-items: center;
+    padding-left: 150px;
+}
+
+/*Main*/
+main> div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 810px;
+    background-image: url("../img/bowl.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    padding: 265px 22px;
+}
+button{
+    width: 140px;
+    height: 60px;
+    background-color: #F0A83E;
+    color: white;
+    margin: 40px 190px
+}
+main div h2{
+    width: 545px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+main div p{
+    width: 545px;
+    height: 35px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+h3{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+section p{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+section div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section div img{
+    width: 550px;
+    height: 550px;
+}
+section h4{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+::section>placeholder{
+    color: white;
+}
+
+section form input{
+    width: 450px;
+    height: 50px;
+    background-color: #3C2313;
+    border-radius: 50px;  
+    padding-left: 20px; 
+}
+section form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section form div button{
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+button.enviar{
+    background-color: grey;
+}
+
+/* footer */
+.lineaOcreAbajo{
+    display: flex;
+    height: 62px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    color: white;
+    align-items: center;
+    padding-left: 15px 60px;
+}
+.lineaOcreAbajo div{
+    display: flex;
+    padding: 20px 20px;
+    font-size: 25px;
+}
+footer div img{
+    width: 40px;
+    height: 35px;
+}
+h5{
+    padding: 2px 20px;
+    color: white;
+} 
+button.suscribir{
+    background-color: #3C2313;
+    border-radius: 50px;
+    height: 30px;
+}
+div form input{
+height: 35px;
+width: 300px;
+border-radius: 50px;
+padding-left: 20px;
+}
+.lineaOscuraAbajo{
+    width: 100%;
+    height: 200px;
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-left: 150px;
+}
+/*-----------------------------------------*/
+@media (max-width: 600px){
+
+.lineaSuperior{
+    display:none;
+}
+section>div{
+    flex-direction: column;    
+}
+.lineaOcreAbajo{
+    height: 100px;
+    flex-wrap: wrap;
+    border: solid 2px red;
+    padding: 0px;
+}
+div form input{
+    width: 150px;
+}
+.lineaOcreAbajo div{
+    width: 600px;
+    border: solid 2px blue;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    height: 50px;
+}
+.suscribe{
+    display: flex;
+    justify-content: space-around;
+}
+}
