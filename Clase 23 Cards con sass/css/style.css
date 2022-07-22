@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body header div h2 {
+  height: 20px;
+  padding: 20px 30px;
+  background-color: #1CD1B0;
+  font-size: 18px;
+}
+body header div h3 {
+  height: 40px;
+  background-color: #00669F;
+  font-size: 30px;
+  padding: 40px 30px;
+  box-shadow: -6px 5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+body main {
+  display: flex;
+  justify-content: space-around;
+}
+body main div {
+  position: relative;
+  top: 100px;
+  background-color: rgb(171, 211, 226);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: -30px 10px 1000px 0px rgba(174, 197, 57, 0.75);
+}
+body main div img.batman {
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+body main div img.harley {
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+body main div img.icono {
+  position: absolute;
+  left: 20px;
+  padding-top: 20px;
+}
+body main div p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 267px;
+  height: 113px;
+  padding: 60px 15px;
+}
+body main div button {
+  border: none;
+  padding: 15px 35px;
+  color: white;
+  background-color: #00669F;
+  margin: 70px 0 30px 80px;
+}
+body footer {
+  margin-top: 250px;
+}
+body footer p {
+  height: 20px;
+  background-color: #00669F;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding: 20px;
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */
