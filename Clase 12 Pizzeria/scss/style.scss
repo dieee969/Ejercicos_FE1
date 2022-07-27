@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.verde{
+    color: green;
+    }
+.blanco{
+    color: white;
+    }
+.rojo{
+    color: red;
+}
+body> header{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color:#222222;
+    padding: 0 50px;
+    div{ 
+        display: flex;
+        p{ 
+            padding: 25px 0 0 20px; 
+            font-size: 30px;
+        }
+    }
+    nav ul{ 
+        display: flex;
+        width: 350px;
+        justify-content: space-between;
+        li{
+            padding-top: 25px;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+            color: red;
+            }
+        }
+    } 
+}
+body main{ 
+    border: solid 2px aquamarine;
+    background-color: aquamarine;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    div.moto{
+        background-image: url("../img/delivery.jpg");
+        background-repeat: no-repeat;
+        height: 650px;
+        width: 850px;
+        background-size: cover;
+        
+        border-radius: 10px;
+        p{
+            font-size: 30px;
+            padding: 40px 0 0 40px;
+            font-weight: bold;
+        }
+    }
+    div.podio{
+        background-color: white;
+        height: 650px;
+        width: 850px;
+        border-radius: 10px;
+        p{
+            font-size: 32px;
+            font-weight: bold;
+            margin: 50px 0 0 300px;
+        }
+        h4{
+            font-size: 30px;
+            margin: 120px 0 0 180px;
+        }
+        div{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 30px;
+            ul li{
+                list-style-type: none;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            img{
+            height: 250px;
+            }
+        }
+
+    }
+}
+body footer{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    nav ul li{
+        list-style-type: none;
+        padding-top: 8px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    div{
+        display: flex;
+        padding: 10px 30px;
+        img{
+            height: 80px;
+        }
+        p{
+            font-size: 30px;
+            padding: 25px 0 0 20px;
+        }
+    }
+}
